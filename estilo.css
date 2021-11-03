@@ -1,15 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box; 
-    -moz-box-sizing: border-box;
+    
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family: "Open Sans", sans-serif;
     
 }
 
 body{ 
-    background:#ffffff;
+    background:#e9e8e8;
  }
  .navegacion{
     width: 100%;
@@ -20,7 +19,7 @@ body{
  }
  .navegacion ul{
      list-style: none;
-     background-color:;
+     
 
  }
  .menu > li{
@@ -67,16 +66,21 @@ body{
    /*lo demas*/
 
    
-.encabezado, .contenido, .contenido-lateral, .pie-pagina{
+.encabezado, .contenido, .contenido-lateral, .contenido-lateral2, .pie-pagina, .pie-pagina2{
     padding: 1em 2em; 
  }
- .contenido, .contenido-lateral, .pie-pagina{
+ .contenido, .contenido-lateral, .contenido-lateral2, .pie-pagina, .pie-pagina2{
      float: left;
      box-sizing: border-box;
  }
  .encabezado {
-     background-color: wheat;
+     background-color: #e9e8e8;
      padding: 0.5px 0px;
+     font-size: 20px;
+     text-align: right;
+    width: 100%;
+
+
  }
 .encabezado{
     position:relative;      
@@ -87,7 +91,7 @@ body{
 
 
  .contenido{
-     width: 80%;
+     width: 65%;
      position: relative;
      margin: 10px auto;
  }
@@ -116,24 +120,51 @@ body{
 
 
 .contenido-lateral {
-    width: 20%;
-    background-color: white;
+    width: 30%;
+    background-color: #e9e8e8;
     height: 101%;
     padding: 0px 0px 0px 0px 15px;
+    text-decoration: none;
+}
+
+.contenido-lateral2 {
+    width: 5%;
+    background-color: #e9e8e8;
+    height: 101%;
+    padding: 0px 0px 0px 0px 15px;
+
 }
 .informacion {
-    background-color:rgb(255, 255, 255);
+    background-color:#e9e8e8;
     height: 100px;
     margin: 0%;
      
 }
 .pie-pagina {
     background-color: rgb(25, 59, 59);
-    width: 100%;
-    height: 200px;
+    width: 50%;
+    height: 100px;
+    color: rgb(136, 132, 132);
+    font-style: italic;
+    font: 15px "Open Sans";
+    
+}
+.pie-pagina2 {
+    background-color: rgb(25, 59, 59);
+    width: 50%;
+    height: 100px;
+    color: rgb(136, 132, 132);
+    font-style: italic;
+    font: 15px "Open Sans";
 
 }
-.menu2 > li {
-    position: relative;
-    display: inline-block;
+.xD1, .xD2 { text-decoration: underline;}
+.h{
+    color: #dfb389;
+}
+.v {color: rgb(68, 145, 138);
+
+}
+.v:hover{
+    style="text-decoration:none"
 }
