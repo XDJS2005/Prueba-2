@@ -40,28 +40,7 @@ body{
      transition-duration: 1s;
     
  }
- /*Submenu*/
-
- .submenu{
-     position: absolute;
-     background-color: rgb(3, 5, 5);
-     width: 110%;
-     visibility: hidden;
-     opacity: 0;
-     transition: opacity 1.5s;
-  }
-  .submenu li a{
-      display: block;
-      padding: 15px;
-      color: white;
-      font-family: sans-serif;
-      text-decoration: none;
-  }
-.menu li:hover .submenu{
-      visibility: visible;
-      transition-duration: 2s;
-      opacity: 1;
-  }
+ 
 
    /*lo demas*/
 
@@ -168,8 +147,7 @@ body{
 
 
 
-@media all  and (max-width:768px) {
-    /* For mobile phones: */
+/*@media all  and (max-width:768px) {
     .encabezado, .contenido-lateral,{
       width: 100%;
     }
@@ -181,5 +159,40 @@ width: 100%;
     }
     .pie-pagina2 {
         width: 100%;
+    }
+}*/
+@media all  and (max-width:1276px) {
+    /* For mobile phones: */
+    .encabezado, .contenido-lateral,{
+      width: 100%;
+    }
+    .contenido{
+        width: 100%;
+    }
+    .pie-pagina{
+width: 100%;
+    }
+
+}
+@media all  and (max-width:375px) and (max-height:812px) {
+    .encabezado{
+        width: 100%;
+        font-size: 75%;
+    }
+     .contenido-lateral,{
+      width: 100%;
+      font-size:80%;
+    }
+    .contenido{
+        width: 100%;
+        font-size:80%;
+    }
+    .pie-pagina{
+        font-size:70%;
+width: 100%;
+    }
+    .CTN {
+        height: 40px;
+        
     }
 }
