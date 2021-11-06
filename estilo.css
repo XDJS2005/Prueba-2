@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+body{ 
+    background:#ffffff;
+ }
+ nav{
+    margin-right: 10px;
+    text-align: right;
+    padding: 30px 0px 10px 0px;
+    width: 100%;
+    margin: 0;
+    margin-top: 0;
+    background-color: wheat;
+    height: 40px;
+ }
+ nav > a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(2, 1, 1);
+    font-family:sans-serif;
+ }
+ nav > a:hover {
+    color: #df8989; 
+     transition-property: all;
+     transition-duration: 0.2s;
+    text-decoration: underline;}
+ nav{
+    position:relative;      
+    -webkit-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+     box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
+    }
+
+ 
+
+   /*lo demas*/
+
+   
+/*.encabezado,*/ .contenido, .contenido-lateral, .contenido-lateral2, .pie-pagina, .pie-pagina2{
+    padding: 1em 2em; 
+ }
+ .contenido, .contenido-lateral, .contenido-lateral2, .pie-pagina, .pie-pagina2{
+     float: left;
+     box-sizing: border-box;
+ }
+ .contenido{
+     width: 65%;
+     position: relative;
+     margin: 10px auto;
+ }
+.contenido:before, .contenido:after{
+                /* no aplica contenidos */
+                content:"";
+    position:absolute;
+                /* posiciona la sombra por detras de la caja */
+    z-index:-1;
+                /* aplica una sombra centrada con un gris oscuro y 20px de difuminado */
+    -webkit-box-shadow:0 0 5px #777;
+    -moz-box-shadow:0 0 5px #777;
+    box-shadow:0 0 5px #777;
+                /* centra verticalmente y separa la sombra de los bordes izquierdo y derecho */
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+                /* redondea las esquinas de la sombra */
+   /* -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;*/
+}
+
+
+
+
+
+.contenido-lateral {
+    width: 30%;
+    background-color: #ffffff;
+    height: 101%;
+    padding: 0px 0px 0px 0px 15px;
+    
+}
+.v{
+ 
+    color: rgb(68, 145, 138);
+}
+.v:hover{
+    
+        text-decoration: none;
+        color: rgb(19, 58, 55);
+        transition-duration: 0.2s;
+    
+
+}
+
+
+
+.contenido-lateral2 {
+    width: 5%;
+    background-color: #ffffff;
+    height: 101%;
+    padding: 0px 0px 0px 0px 15px;
+
+}
+.informacion {
+    background-color:#ffffff;
+    height: 100px;
+    margin: 0%;
+     
+}
+.pie-pagina {
+    background-color: rgb(25, 59, 59);
+    width: 100%;
+    height: 100px;
+    color: rgb(136, 132, 132);
+    font-style: italic;
+    font: 15px "Open Sans";
+    
+}
+.contenido-lateral h4{
+    border-bottom: 3px solid #a02d1e;
+}
+/*.pie-pagina2 {
+    background-color: rgb(25, 59, 59);
+    width: 50%;
+    height: 100px;
+    color: rgb(136, 132, 132);
+    font-style: italic;
+    font: 15px "Open Sans";*/
+
+}
+.xD1, .xD2 { text-decoration: underline;}
+.h{
+    color: #832c2c;
+}
+
+
+
+
+@media all  and (max-width:1276px) {
+    /*.encabezado*/, .contenido-lateral,{
+      width: 100%;
+    }
+    .contenido{
+        width: 100%;
+    }
+    .pie-pagina{
+width: 100%;
+    }
+
+}
+@media all  and (max-width:375px) and (max-height:812px) {
+    nav{
+        width: 100%;
+        font-size: 75%;
+    }
+     .contenido-lateral,{
+      width: 100%;
+      font-size:80%;
+    }
+    .contenido{
+        width: 100%;
+        font-size:80%;
+    }
+    .pie-pagina{
+        font-size:70%;
+width: 100%;
+    }
+    .CTN {
+        height: 40px;
+        
+    }
+}
