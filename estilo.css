@@ -140,6 +140,9 @@ li strong{
     .pie-pagina{
 width: 100%;
     }
+    .img{
+        height: 40px;
+    }
 }
 @media all  and (max-width:375px) and (max-height:812px) {
     nav{
