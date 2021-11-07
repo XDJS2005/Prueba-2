@@ -10,15 +10,21 @@ body{
 body{ 
     background:#ffffff;
  }
+ /*header*/
+ .img{
+    
+    margin: 0;
+    padding: 0px 40px 10px 10px;
+ }
  nav{
     margin-right: 10px;
     text-align: right;
-    padding: 30px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
     width: 100%;
     margin: 0;
     margin-top: 0;
     background-color: wheat;
-    height: 40px;
+    height: 70px;
  }
  nav > a{
     margin-right: 10px;
@@ -37,12 +43,7 @@ body{
     -moz-box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
      box-shadow:0 0px 4px #777, 0 0 20px #CCC inset;
     }
-
- 
-
    /*lo demas*/
-
-   
  .contenido, .contenido-lateral, .contenido-lateral2, .pie-pagina, .pie-pagina2{
     padding: 1em 2em; 
  }
@@ -55,6 +56,7 @@ body{
      position: relative;
      margin: 10px auto;
  }
+ /*contenido lateral*/
 .contenido:before, .contenido:after{
                 /* no aplica contenidos */
                 content:"";
@@ -97,6 +99,7 @@ li strong{
     height: 100%;
     padding: 0px 0px 0px 0px 15px;
 }
+
 .informacion {
     background-color:#ffffff;
     height: 100px;
@@ -159,3 +162,66 @@ width: 100%;
         height: 40px;   
     }
 }
+
+/*Contacto */
+
+.fw{
+    font-weight: 300;
+}
+.container{
+    width: 90%;
+    position: relative;
+    margin: 10px 0px 10px 10px ;  
+}
+p{    margin: 10px 0px 10px 10px ;  
+}
+/*form*/
+
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+label {
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 90%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea {
+    height: 20rem;
+}
+.form {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form {
+    max-width: 800px;
+}
+
+.enviar {
+    background-color: rgb(53, 175, 135);
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+}
+
+
+

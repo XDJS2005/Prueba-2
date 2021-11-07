@@ -1,0 +1,72 @@
+.fw{
+    font-weight: 300;
+}
+.container{
+    width: 90%;
+    position: relative;
+    margin: 10px 0px 10px 10px ;  
+}
+p{    margin: 10px 0px 10px 10px ;  
+}
+
+/*Contacto */
+
+legend {
+    font-size: 2rem;
+    color: #4f4f4f;
+}
+label {
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1rem;
+    display: block;
+    width: 90%;
+    background-color: #e1e1e1;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;
+}
+input[type="radio"]{
+    width: auto;
+    margin: 0;
+}
+input{
+    width: 20rem;
+}
+select {
+    -webkit-appearance: none;
+    appearance: none;
+}
+textarea {
+    width: 20rem;
+    height: 20rem;
+}
+
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+
+.enviar {
+    background-color: rgb(53, 175, 135);
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    display: block;
+}
+
